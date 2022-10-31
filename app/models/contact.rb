@@ -2,6 +2,7 @@ class Contact < ApplicationRecord
     
     
     belongs_to :kind, optional:false
+    has_many :phones
     #
     #def author
     #    "Breno Oliveira"
